@@ -1,0 +1,51 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #main-doc{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+
+        .left{
+            overflow: hidden;
+            flex-basis: 290px;
+            padding: 10px;
+        }
+
+        .right{
+            overflow: hidden;
+            flex-basis: 100%;
+        }
+
+        .left ul{
+            list-style: none;
+        }
+
+        .left ul li{
+            margin-bottom: 10px;
+            border-bottom: 1px solid black;
+        }
+
+        .left ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .nav-link{
+
+        }
+
+        .main-section{
+
+        }
+
+        @media only screen and (max-width: 450px) {
+            #main-doc{
+                background-color: aqua;
+            }
+        }
